@@ -16,19 +16,19 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               radius: 50.0,
-              backgroundImage: AssetImage('images/angela.jpg'),
+              backgroundImage: AssetImage('images/index.jpg'),
             ),
             Text(
-              'Angela Yu',
+              'AAA Shop',
               style: TextStyle(
                 fontFamily: 'Pacifico',
                 fontSize: 40.0,
-                color: Colors.white,
+                color: Colors.red,
                 fontWeight: FontWeight.bold,
               ),
             ),
             Text(
-              'FLUTTER DEVELOPER',
+              'Visit now',
               style: TextStyle(
                 fontFamily: 'Source Sans Pro',
                 color: Colors.teal.shade100,
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'angela@email.com',
+                    'shop@email.com',
                     style: TextStyle(
                         fontSize: 20.0,
                         color: Colors.teal.shade900,

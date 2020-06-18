@@ -22,6 +22,7 @@ flutter:
 
   assets:
     - images/angela.jpg
+    - images/index.jpg
 
   fonts:
   - family: Pacifico
